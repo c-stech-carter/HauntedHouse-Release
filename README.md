@@ -1,35 +1,61 @@
 # Haunted House Game 
 
-A **text-based adventure game** where players explore a haunted mansion, uncover secrets, and try to escape. Built using **JavaFX**.
-The graphics utilized for the rooms are pixel art generated with A.I. using DallE-3 and Flux1Dev, and some free icons were used which were obtained from itch.io.
-The game was designed as an assignment for Soutwest Tech to demonstrate what I've learned while studying Java.
+An atmospheric, text-and-graphic adventure game where players explore a haunted mansion, uncover hidden secrets, and search for a way to escape. 
 
-##  Description
-The setting is a nightmare that the player finds themselves trapped in.   The only way to make it out is to fully explore the mansion, and find each item necessary to break free.  The controls can be used either by
-menu buttons at the top of the window, or right-clicking and using the context menu.
+The game was designed as a final project submission for Southwest Tech to demonstrate core object-oriented programming concepts, GUI development, and event handling in Java.
 
-###  Features
-- **Interactive exploration** of different rooms 
-- **Inventory system** to collect and use items 
-- **Dynamic room transitions** with atmospheric descriptions 
-- **JavaFX-based UI** for a visually immersive experience 
-- **Custom event handling** for searching, looking around, and unlocking doors 
+---
 
-##  Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/haunted-house-game.git
-   ```
-2. Open the project in **IntelliJ IDEA** (or another Java IDE).
-3. Make sure you have **Java 11+** and **JavaFX** installed.
-4. Run `GameWindow.java` to start the game.
+## The Setting & Gameplay
+The player finds themselves suddenly trapped inside a living nightmare. The only way to break free and escape back to reality is to fully explore the shifting layout of the mansion, manage your inventory, and discover the specific items required to unlock your salvation.
 
-##  Built With
-- **Java 11+**
-- **JavaFX**
+### How to Play
+The user interface is designed to give you fluid control over your exploration:
+* **Top Menu Bar:** Use the interactive button options at the top of the window to move, search, and inspect.
+* **Context Menu:** Right-click anywhere within the room view to pull up a dynamic context action menu.
 
-## Future Features
-If I have time to revisit this project I'll add more animations and custom messages to enhance the exploration.
+### Core Features
+- **Visual Immersion:** Dynamic room transitions paired with atmospheric, descriptive text updates.
+- **Inventory Engine:** Fully functional system to collect, inspect, and deploy critical puzzle items.
+- **Robust Input Handling:** Dual-control mechanics utilizing both top-level window menus and right-click context menus.
+- **Pristine Build Pipeline:** Automated dependency management and packaging powered entirely by Gradle.
 
+---
 
-###  Have fun exploring the haunted house! 
+## Asset Credits
+To build an eerie, immersive environment, the project combines modern AI generation with community assets:
+* **Room Graphics:** High-quality pixel art landscapes generated via AI using **DALL-E 3** and **FLUX.1-dev**.
+* **UI & Icons:** Free thematic icon sets sourced from creators on **itch.io**.
+
+---
+
+## 🛠️ Built With
+* **Java 17** (Configured via Gradle Toolchain)
+* **JavaFX 17.0.10** (Controls Module)
+* **Gradle** (Build Automation Architecture)
+
+---
+
+## Getting Started & Building
+
+Because this project is automated with Gradle, you do not need to manually install JavaFX on your system to run or edit the source code.
+
+### Prerequisites
+* **IDEs Supported:** VS Code (with the *Extension Pack for Java*) or IntelliJ IDEA.
+* **Java:** A local installation of JDK 17.
+
+### Running the Source Code
+1. Clone or download this repository.
+2. Open the root folder in your preferred IDE.
+3. Allow the integrated Gradle wrapper a brief moment to automatically sync and pull the necessary JavaFX libraries.
+4. Run the project through your IDE's Gradle tool window by executing the **`run`** task.
+
+### Packaging a Standalone Windows Application
+This project is configured to bypass strict modular JVM constraints using a native launcher pattern. To generate a fully self-contained desktop package that can be played on any computer:
+
+1. Open the **Gradle Sidebar / Tool Window**.
+2. Expand the `other` task group folder.
+3. Double-click **`packageApp`**.
+4. Once completed, your fully bundled application folder containing a standalone executable (`HauntedHouse.exe`) will be waiting in:
+```text
+   build/dist/HauntedHouse/
