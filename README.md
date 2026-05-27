@@ -9,12 +9,28 @@ The game was designed as a final project submission for Southwest Tech to demons
 ## The Setting & Gameplay
 The player finds themselves suddenly trapped inside a living nightmare. The only way to break free and escape back to reality is to fully explore the shifting layout of the mansion, manage your inventory, and discover the specific items required to unlock your salvation.
 
+## 👻 The Setting & Gameplay
+The player finds themselves suddenly trapped inside a living nightmare. The only way to break free and escape back to reality is to fully explore the shifting layout of the mansion, manage your inventory, and discover the specific items required to unlock your salvation.
+
+### 📦 Quick Start & Download
+
+▶️ **[Click Here to Download Haunted House v3.0.0 (Windows)](PASTE_YOUR_LINK_HERE)**
+
+1. **Download** and extract the `.zip` folder to your computer.
+2. Open the extracted folder and navigate into `build/dist/HauntedHouse/`.
+3. Double-click **`HauntedHouse.exe`** to launch the game instantly!
+
+### 🎮 How to Play & Controls
+You don't need to read the whole guide to get started! Control your exploration using either method:
+* **Top Menu Bar:** Use the interactive buttons at the top of the window to change rooms, look around, or check your inventory.
+* **Right-Click Menu:** Right-click anywhere inside the room view to open a dynamic context action menu for quick interactions.
+
 ### Game Previews
 | Main Game Window | First Room Preview |
 | :---: | :---: |
 | ![Game Interface](Screenshot1.jpeg) | ![Game Screen 2](Screenshot2.jpeg) |
 
-### How to Play
+### How to Play - (Explained more fully)
 The user interface is designed to give you fluid control over your exploration:
 * **Top Menu Bar:** Use the interactive button options at the top of the window to move, search, and inspect.
 * **Context Menu:** Right-click anywhere within the room view to pull up a dynamic context action menu.
