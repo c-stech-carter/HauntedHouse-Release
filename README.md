@@ -10,9 +10,9 @@ The game was designed as a final project submission for Southwest Tech to demons
 The player finds themselves suddenly trapped inside a living nightmare. The only way to break free and escape back to reality is to fully explore the shifting layout of the mansion, manage your inventory, and discover the specific items required to unlock your salvation.
 
 ### Game Previews
-| Main Game Window | Inventory & Context Menu |
+| Main Game Window | First Room Preview |
 | :---: | :---: |
-| ![Game Interface](Screenshot1.jpeg) | ![Context Actions](Screenshot2.jpeg) |
+| ![Game Interface](Screenshot1.jpeg) | ![Game Screen 2](Screenshot2.jpeg) |
 
 ### How to Play
 The user interface is designed to give you fluid control over your exploration:
