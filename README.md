@@ -93,3 +93,5 @@ To see how this project evolved across different architectural stages, visit the
 * The Final Production Build: [HauntedHouse-Release](https://github.com/c-stech-carter/HauntedHouse-Release) -- Features complete project modernization with Gradle build automation, secure classpath resource mapping, and an optimized standalone bundle configuration.
 
 ***
+
+### Snapshot Date: May 2026 - Full Release
